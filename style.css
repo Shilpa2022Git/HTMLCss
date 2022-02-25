@@ -1,0 +1,87 @@
+p {
+	font-size: 25px;
+	border: 2px solid black;
+	padding: 20px;
+	margin: 50px;
+	font-family: verdana;
+}
+/* This takes whole browser space, or body tag space or parent div space
+table {
+	width : 100%;
+	border-spacing: 30px;
+}
+*/
+
+table, tr, th, td, caption {
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: left;
+	/*background-color: #96D4D4;
+	border-radius: 10px; --> for round border. If you want skip table border, remove table tag
+	border-style: dotted;
+	border-color: red;
+	
+	
+	*/
+}
+
+/* tr:nth-child(odd) { */
+  /* background-color: #D6EEEE; */
+/* } */
+
+td:nth-child(even), th:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+tr:hover {background-color: #D6EEEE;}
+
+/*th, td {
+	padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+	OR
+  padding: 10px
+}
+*/
+
+caption {
+	width : 500px;
+}
+
+/* #ul { */
+	/* list-style-type:circle;   /* circle, square, disc, none */ */
+/* } */
+
+/* #ol { */
+	/* type : i;  /* other options are 1, A, a, I, i i.e. alphabetical order, roman nmbers in caps and small	 */
+	/* /* can control list counting */ */
+	/* start: 11; */
+/* } */
+
+#ul, #ol, #dl {
+	width : 200px;
+	float: left;
+}
+
+.city {
+  background-color: tomato;
+  color: white;
+  padding: 10px;
+} 
+
+.main {
+  text-align: center;
+}
+
+ul + p {
+	color: green;
+}
+
+div#container > ul {
+	border: 1px solid green;
+}
+
+div#dl dl ~ p {
+	text-decoration-line:  underline;
+}

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html lang="en-US"> 
+	<head>
+		<title> Hello World </title>
+		You should always include the lang attribute inside the html tag, to declare the language of the Web page. This is meant to assist search engines and browsers. Also it can include country code as US.
+		<!--- <link rel="icon" type="image/x-icon" href="/images/favicon.ico"> Use the HTML <link> element to insert a favicon, Defines the relationship between a document and an external resource--->
+		<style>
+			body {
+				background-color : powderblue;
+				}
+			p {
+				color: red;
+			}
+		</style>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		This is the content of html doc. Body is a container for all the visible contents, such asheadings, paragraphs, images, hyperlinks, tables, lists, etc.
+		<a href="https://gobyexample.com/json">go examples</a>
+		<p id=p1 title="I am a tool tip"> To open on another page user target tag 
+			<a href="https://gobyexample.com/json" target="_blank">this link</a>
+		</p>
+		<p>
+			<p>Note:</p>
+			
+			<p>	The target attribute can only use with href attribute in anchor tag. <br>
+				If we will not use target attribute then link will open in same page.
+			</p>
+		</p>
+		<pre title="To preserve indentation use pre tag instead paragraph. Defines pre-formatted text">
+			Appearance of HTML anchor tag :
+				An unvisited link is displayed underlined and blue. A visited link displayed underlined and purple.
+				An active link is underlined and red.
+				
+		</pre>
+		<img src="birds.jpg" width=200 height=200 alt="alternae text if image not displayed">Spring season</img>
+		<hr>
+		<p title='I am "Shilpa"'> Single or Double Quotes for attribute values?
+			Double quotes around attribute values are the most common in HTML, but single quotes can also be used.
+			In some situations, when the attribute value itself contains double quotes, it is necessary to use single quotes:
+		</p>
+		<h1 style="font-size:40px;background-color:tomato;color:yellow;text-align:center">Heading with style</h1>
+		<b>The text is bold</b>
+		<p>Browsers usually insert quotation marks around the q element.</p>
+
+		<!--- Comment given here.  Comments are not displayed by the browser, but they can help document your HTML source code. --->
+		<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+		<a href="mailto:shilpa.uttarwar@gmail.com">Send email</a>
+		
+		<a href="#p1">Jump to first para</a>
+		
+		<table>
+			<!--- we can specify vertical or horizontal table headers. using th tag. --->
+			<caption>Family Information </caption>
+			<tr>
+				<th colspan="2">Name</th>
+				<th>Age</th>
+			</tr>
+			<tr>
+				<td>Shilpa</td>
+				<td>Uttarwar</td>
+				<td>38</td>
+			</tr>
+			<tr>
+				<td>Abha</td>
+				<td>Uttarwar</td>
+				<td>39</td>
+			</tr>
+			<tr>
+				<td>Prachi</td>
+				<td>Uttarwar</td>
+				<td>34</td>
+			</tr>
+		</table>
+		
+		<h2> List examples</h2> </hr>
+		
+		<div id=ul>
+			<h3>Unordered list</h3>		
+			<ul list-style-type=circle>
+				<li>Coffee</li>
+				<li>Tea</li>
+				<li>Milk</li>
+			</ul>
+			<p>I am after the unordered list</p>
+		</div>
+		
+		<div id=ol>
+			<h3>Ordered list</h3>		
+			<ol type="i" start="11">
+				<li>Coffee</li>
+				<li>Tea</li>
+				<li>Milk</li>
+			</ol>
+			<p>I am after the ordered list</p>
+		</div>
+		<div id=dl>
+			<h3>Description list</h3>		
+			<dl>
+			  <dt>Coffee</dt>
+			  <dd>- black hot drink</dd>
+			  <dt>Milk</dt>
+			  <dd>- white cold drink</dd>
+			</dl>
+			
+			<p>Description list gives details of list item</p>
+		</div>
+		
+		<h2 class="city main">London</h2>
+		<h2 class="city">Paris</h2>
+		<h2 class="city">Tokyo</h2>
+		
+		<label for="selectOpt">Choose a car</label>
+		<select id="selectOpt" name="cars" selected multiple size="3">
+			<option value="volvo">Volvo</option>
+			<option value="mpv">MPV</option>
+			<option value="SUV">SUV</option>
+			<option value="Diesel">Diesel</option>
+			<option value="Petrol">Petrol</option>
+			<option value="CNG">CNG</option>
+		</select>
+		
+		<div id="container">
+		   <ul>
+			  <li> List Item
+				<ul>
+				   <li> Child </li>
+				</ul>
+			  </li>
+			  <li> List Item </li>
+			  <li> List Item </li>
+			  <li> List Item </li>
+		   </ul>
+		</div>
+		
+		<!--- output element --->
+		<br><br>
+		<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+			<fieldset>
+				<legend>Form Elements: </legend>
+					<br>
+					0 <input type="range" id="a" name="a" value="50"> 100 +  <input type="number" id="b" name="b" value="50"> = <output name="x" for="a b"></output>
+					
+					<br><br>
+					<label>Choose Browser></label>
+					<input list="browsers" name="browser">
+					<datalist id="browsers">
+						<option value="Chrome">
+						<option value="Opera">
+						<option value="Safari">
+						<option value="Internet Explorer">
+						<option value="Firefox">
+						<option value="Mac">
+					</datalist>				
+			</fieldset>
+		</form>
+	</body>
+	
+</html>
+
