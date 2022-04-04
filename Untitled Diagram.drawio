@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-04T05:24:31.510Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="mjZpGEIyzl3SpEfLX0M8" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-04T05:25:49.791Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="gaccoW-WH3O5wndbjZSG" version="17.4.0" type="github">
   <diagram id="1hcAN3jaMcbh5Y8M9QYl" name="Page-1">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -39,6 +39,15 @@
               <mxPoint x="510" y="149.5" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="I5U5pQiUXtEN5GpuiPj--12" value="Product View" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I5U5pQiUXtEN5GpuiPj--13" value="Search Product" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I5U5pQiUXtEN5GpuiPj--14" value="Add Product" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="280" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
